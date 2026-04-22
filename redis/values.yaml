@@ -3,6 +3,6 @@ statefulset:
   repository: "saithota9/redis"
   tag: "1.0.0"
 headless:
-  clusterIP: None
+  clusterip: None
 service:
   type: ClusterIP
